@@ -33,7 +33,7 @@ Visualization and Analysis
 
 ### Name: Shreedhar Kumar K J
 
-### Register Number:212224230217
+### Register Number:212224230265
 
 ```python
 # Autoencoder for Image Denoising using PyTorch
@@ -98,14 +98,14 @@ optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
 # Print model summary
 print('Name           :Shreedhar Kumar K J')
-print('Register Number:212224230217')
+print('Register Number:212224230265')
 summary(model, input_size=(1, 28, 28))
 
 # Train the autoencoder
 def train(model, loader, criterion, optimizer, epochs=5):
     model.train()
     print('Name           :Shreedhar Kumar K J')
-    print('Register Number:212224230217')
+    print('Register Number:212224230265')
 
     for epoch in range(epochs):
         running_loss = 0.0
@@ -142,7 +142,7 @@ def visualize_denoising(model, loader, num_images=10):
     outputs = outputs.cpu().numpy()
 
     print('Name           :Shreedhar Kumar K J')
-    print('Register Number:212224230217')
+    print('Register Number:212224230265')
     plt.figure(figsize=(18, 6))
     for i in range(num_images):
         # Original
