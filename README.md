@@ -22,7 +22,7 @@ Design the Convolutional Autoencoder Architecture
 ### STEP 4: 
 Compile and Train the Model
 
-### STEP 5: 
+### STEP 5 : 
 Evaluate the Model
 
 ### STEP 6: 
